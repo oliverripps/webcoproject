@@ -2,83 +2,93 @@
 <!DOCTYPE html>
 <html>
 <link href="https://fonts.googleapis.com/css?family=Baloo+Da" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Zilla+Slab" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet" type="text/css">
-
 <head>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="webstyle.css">
   <nav id="nav-bar">
-    <h1>Hello World!</h1>
+    <h1 id="home">Öber Eats©</h1>
       <ul>
-        <li><a href="#images">Images</a></li>
-        <li><a href="#links">Links</a></li>
-        <li><a href="#lists">Lists</a></li>
-        <li><a href="#tff">Text Fields & Forms</a></li>
-        <li><a href="#bcb">Buttons & Checkboxes</a></li>
-        <li><a href="#animation">Shapes & Animation</a></li>
+        <li><a href="#Food">Meals</a></li>
+        <li><a href="#Drinks">Drinks</a></li>
+        <li><a href="#Snacks">Snacks</a></li>
+        <li><a href="#Other">Other</a></li>
+        <li><a href="#Cart">Cart</a></li>
+        <li><a href="#AccountInfo">Account Info</a></li>
       </ul>
-
   </nav>
 </head>
 
 
 
 <body>
+<hr>
+<h4 id="Food">Food</h4>
   <p>
-    Greetings WebCo! Feel free to use this page and its corresponding code to get familiar with HTML and CSS.
+    <b> Click To Add To Cart</b>
   </p>
+
+
+  <div class="">
+    <a href="#Cart">
+    <img src="ramen.jpg" alt="Ramen">
   <p>
-    If you have any questions, contact Minh Lam at <strong>mlam@oberlin.edu</strong>
-    and/or Kendra Lockard at <strong>klockard@oberlin.edu</strong>.
+    Ramen 1.00$
   </p>
-  <p>
-    Happy coding!
-  </p>
+  </div>
 
 <hr>
-<h4 id="images">Images</h4>
-  <p>
-    Let's start by inserting an image.
-  </p>
 
+<h4 id="Drinks">Drinks</h4>
+  <p>
+    <b> Click To Add To Cart</b>
+  </p>
   <div class="thin-green-border">
-    <img src="./tmg-article_tall.jpg" alt="turtle eating a strawberry">
+    <img src="Coke.img" alt="Coke">
   </div>
   <p>
-    We used the <strong>div</strong> element to create a border around the above turtle.
-    Notice that I overwrote the color and font of the <strong>p</strong> element
-    here with <em>inline styling</em>.
+    Coke 1.50$
   </p>
-
 
 <hr>
-<h4 id="links">Links</h4>
+
+<h4 id="Snacks">Snacks</h4>
   <p>
-    What about inserting links?
-    <a href="https://mashable.com/article/turtles-eating-strawberries-videos/">
-      Click here to see more strawberry-eating turtles.</a>
+    <b> Click To Add To Cart</b>
   </p>
 
+
+  <div class="">
+    <img src="chips.img" alt="Chips">
   <p>
-    We can link to external pages, or to other sections of our own web page.
-    When linking within your own page, just make sure your link and where you're linking to have the same <strong>id</strong> value.
-    This is how the navigation bar at the top of this web page works.
+    Chips 1.00$
   </p>
-  <a href="#internal-link-practice">
-    Click here for another example of jumping down.
-  </a>
-  <p>
-    Sometimes it's nifty to turn images into links. Click on the image below for a surprise.
-  </p>
-  <div class="fun-border">
-    <a target="_blank" href="https://www.youtube.com/watch?reload=9&v=s6CArh5p-EU">
-      <img src="./f9vzm.jpg" alt="turtle wearing a raspberry jacket">
-    </a>
   </div>
+
 <hr>
+
+<h4 id="Other">Other</h4>
+    <p>
+      <b> Click To Add To Cart</b>
+    </p>
+
+
+    <div class="">
+      <img src="tissue.img" alt="Tissue Box">
+    <p>
+      Tissues 2.00$
+    </p>
+    </div>
+<hr>
+
+<h4 id="Cart">Cart</h4>
+<p> you picked a food!</p>
+
+<hr>
+<hr>
+<hr>
+<hr>
+
+
+<!--ADD CART AND ACCOUNT INFO
 <h4 id="lists">Lists</h4>
   <p>Let's get some practice making lists.</p>
   <ul>
@@ -145,7 +155,6 @@
         </form>
       </div>
   </label>
-
 <hr>
 <h4 id="bcb">Buttons and Checkboxes</h4>
   <p> There are more features that may be useful in getting other types of user input.
@@ -172,8 +181,7 @@
       <input id="on" type="radio" name="on-off"> Off
     </label>
   </h3>
-
-  <!-- CHECKBOXES -->
+CHECKBOXES
   <p>Checkboxes are another HTML tool available to use for questions with several possible answers.
     Just like buttons, "checkbox" is a type of input.
     In fact, they work just the same as radio buttons, with the same conventions and best practices.
@@ -245,6 +253,6 @@
     <a href="#links">
       Click here to jump back up.
     </a>
-  </p>
+  </p>-->
 </body>
 </html>

@@ -1,0 +1,150 @@
+<style>
+    head {
+      background: linear-gradient(35deg, #62e1d7, #e16295);
+      color: #ffffff;
+    }
+
+    body {
+      background: #f0f0f0;
+    }
+
+    /* Navigation bar */
+    nav {
+      background: linear-gradient(60deg, #62e1d7, #e16295);
+      font-size: 18px;
+    }
+
+    nav ul {
+      color: white;
+    }
+
+    /* Preferred text elements */
+    p {
+      font-family: monospace;
+      font-size: 16px;
+      color: black;
+    }
+
+    /* Anchor elements */
+    a {
+      font-family: "Zilla Slab";
+      color: #c0eec7;
+    }
+
+    a:hover {
+      color: #62d7e1;
+      font-size: 19px;
+    }
+
+    button {
+      background-color: #09A7A1;
+      font-family: monospace;
+    }
+
+    /* Header styles */
+    h1 {
+
+      font-family: "Baloo Da", monospace;
+      font-size: 60px;
+      color: #ffffff;
+    }
+
+    h2 {
+      font-family: Lobster, monospace;
+      color: #e7adaf;
+    }
+
+    h3 {
+      font-family: "Sacramento", monospace;
+      font-size: 25px;
+      color: #fc4698;
+    }
+
+    h4 {
+      font-family: "Zilla Slab", monospace;
+      font-size: 30px;
+      color:  #363131;
+    }
+
+    h5 {
+      font-family: "Baloo Da", monospace;
+      font-size: 20px;
+      color: #f924f0;
+
+    }
+
+    h6 {
+      font-family: "Baloo Da", monospace;
+      font-size: 20px;
+      color: #f924f0;
+
+    }
+
+    /* Images */
+    img {
+      width: 400px;
+    }
+
+    /* Unordered lists */
+    ul {
+      font-family: Lobster;
+      color: black;
+    }
+
+    /* Ordered lists */
+    ol {
+      font-family: "Indie Flower";
+      color: black;
+    }
+
+    /* Borders */
+    .thin-green-border {
+      border-color: #2dad6b;
+      border-width: 5px;
+      border-style: dotted;
+      width: 400px;
+      height: 230px;
+
+    }
+
+    .purple-border {
+      border-color: #bc0bff;
+      border-width: 10px;
+      border-style: ridge;
+      width: 220px;
+      height: 235px;
+
+    }
+
+    .fun-border {
+      border-color: #ea17d6;
+      border-width: 10px;
+      border-style: outset;
+      width: 400px;
+      height: 270px;
+
+    }
+
+    /* Text field borders */
+    .tf-border1 {
+      border-color: #fff85e;
+      border-width: 3px;
+      border-style: dashed;
+      width: 171px
+    }
+
+    .tf-border2 {
+      border-color: #ffa500;
+      border-width: 3px;
+      border-style: dashed;
+      width: 131px
+    }
+
+    .tf-border3 {
+      border-color: #ff0b11;
+      border-width: 3px;
+      border-style: dashed;
+      width: 246px
+    }
+
+</style>
