@@ -1,258 +1,32 @@
 
 <!DOCTYPE html>
 <html>
-<link href="https://fonts.googleapis.com/css?family=Baloo+Da" rel="stylesheet" type="text/css">
 <head>
+  <h1> Hello Oliver!</h1>
+<link href="https://fonts.googleapis.com/css?family=Baloo+Da" rel="stylesheet" type="text/css">
+</head>
+<body>
+
     <link rel="stylesheet" href="webstyle.css">
   <nav id="nav-bar">
-    <h1 id="home">Öber Eats©</h1>
-      <ul>
-        <li><a href="#Food">Meals</a></li>
-        <li><a href="#Drinks">Drinks</a></li>
-        <li><a href="#Snacks">Snacks</a></li>
-        <li><a href="#Other">Other</a></li>
-        <li><a href="#Cart">Cart</a></li>
-        <li><a href="#AccountInfo">Account Info</a></li>
-      </ul>
+      <div class="dropdown">
+        <button class="dropbtn"
+        style="background-color: grey;
+        color: white;
+        padding: 20px;
+        font-size: 30px;
+        border: none;
+        cursor: pointer;
+        width: 600px; height: 100px;"
+        >Öber Eats©</button>
+        <div class="dropdown-content">
+        <a href="Order.html">Find Food</a>
+        <a href="Cart.html">Cart</a>
+        <a href="Accountinfo.html">Account Info</a>
+      </div>
+      </div
   </nav>
-</head>
 
 
-
-<body>
-<hr>
-<h4 id="Food">Food</h4>
-  <p>
-    <b> Click To Add To Cart</b>
-  </p>
-
-
-  <div class="">
-    <a href="#Cart">
-    <img src="ramen.jpg" alt="Ramen">
-  <p>
-    Ramen 1.00$
-  </p>
-  </div>
-
-<hr>
-
-<h4 id="Drinks">Drinks</h4>
-  <p>
-    <b> Click To Add To Cart</b>
-  </p>
-  <div class="thin-green-border">
-    <img src="Coke.img" alt="Coke">
-  </div>
-  <p>
-    Coke 1.50$
-  </p>
-
-<hr>
-
-<h4 id="Snacks">Snacks</h4>
-  <p>
-    <b> Click To Add To Cart</b>
-  </p>
-
-
-  <div class="">
-    <img src="chips.img" alt="Chips">
-  <p>
-    Chips 1.00$
-  </p>
-  </div>
-
-<hr>
-
-<h4 id="Other">Other</h4>
-    <p>
-      <b> Click To Add To Cart</b>
-    </p>
-
-
-    <div class="">
-      <img src="tissue.img" alt="Tissue Box">
-    <p>
-      Tissues 2.00$
-    </p>
-    </div>
-<hr>
-
-<h4 id="Cart">Cart</h4>
-<p> you picked a food!</p>
-<p>
-
-
-
-  <p>
-
-
-<!--ADD CART AND ACCOUNT INFO
-<h4 id="lists">Lists</h4>
-  <p>Let's get some practice making lists.</p>
-  <ul>
-    <li>lists</li>
-    <li>can</li>
-    <li>be</li>
-    <li>unordered</li>
-  </ul>
-
-  <p>or</p>
-  <ol>
-    <li>they</li>
-    <li>can</li>
-    <li>be</li>
-    <li>ordered!</li>
-  </ol>
-
-  <p>
-    Wow!
-  </p>
-  <p>
-    We've made some beautiful strides. Let's keep going.
-  </p>
-
-
-<hr>
-<h4 id="tff">Text Fields and Forms</h4>
-  <p>Sometimes we want the user's input. To do this, we will use
-    <input type="text" placeholder="text fields">.
-  </p>
-
-  <p>
-    But what good is the user's input if they can't submit it?
-    Luckily, we can build web forms that submit data to a server using HTML alone.
-    Just use the <strong>form</strong> element.
-  </p>
-    <label id="wrapper">
-      <div class="tf-border1">
-        <form action="#url-where-you-want-to-submit-form-data">
-          <input type="text" placeholder="This is placeholder text">
-        </form>
-      </div>
-  </label>
-  <p>To make the UI a little friendlier, we can add a <strong>submit</strong>
-    button for this <strong>text field</strong>.
-    All we have to do is add a <strong>button</strong> as the last element of our
-    <strong>form</strong> element.</p>
-    <label id="wrapper">
-      <div class="tf-border2">
-        <form action="#url-where-you-want-to-submit-form-data">
-          <input type="text" placeholder="Hey buddy">
-            <button type="submit">Submit</button>
-        </form>
-    </div>
-  </label>
-  <p>Sometimes, we want to require that a user fill out a certain field.
-    We can enforce this by adding a <u>required</u> attribute to our <strong>input</strong> element.
-  </p>
-  <label id="wrapper">
-      <div class="tf-border3"
-        <form action="/url-where-you-want-to-submit-form-input">
-          <input type="text" placeholder="Try to submit without input"required>
-          <button type="submit">Submit</button>
-        </form>
-      </div>
-  </label>
-<hr>
-<h4 id="bcb">Buttons and Checkboxes</h4>
-  <p> There are more features that may be useful in getting other types of user input.
-    For example, <strong>buttons</strong> are a common tool used for multiple choice
-    or checkbox type questions.
-    First we will look at <strong>radio buttons</strong>, which are HTML's multiple choice button type.
-  </p>
-  <p>All related <strong>radio buttons</strong> should have the same <u>name</u> attribute,
-    to ensure that only one answer is chosen.
-    <br>
-    It is considered best practice to set a <u>for</u> attribute on label
-    elements with a value that matches that of the <strong>id</strong> value
-    of the <strong>input</strong> element.
-    This allows assisitive technologies to create a linked relationship between the label,
-    and the child input element.
-    <br>
-  </p>
-
-  <h3>
-    <label id="wrapper" for="on">
-      <input id="on" type="radio" name="on-off"> On
-    </label>
-    <label id="wrapper" for="off">
-      <input id="on" type="radio" name="on-off"> Off
-    </label>
-  </h3>
-CHECKBOXES
-  <p>Checkboxes are another HTML tool available to use for questions with several possible answers.
-    Just like buttons, "checkbox" is a type of input.
-    In fact, they work just the same as radio buttons, with the same conventions and best practices.
-  </p>
-
-  <h3 id="wrapper">
-    I think html is:
-  </h3>
-  <h3>
-    <label id="wrapper" for="fun">
-      <input id="fun" type="checkbox" name="cb-practice">fun
-    </label>
-
-    <label id="wrapper" for="ok">
-      <input id="ok" type="checkbox" name="cb-practice">it's ok
-    </label>
-
-    <label id="wrapper" for="challenging">
-      <input id="challenging" type="checkbox" name="cb-practice">challenging
-    </label>
-
-    <label id="wrapper" for="meh">
-      <input id="meh" type="checkbox" name="cb-practice">meh
-    </label>
-
-    <label id="wrapper" for="intuitive">
-      <input id="intuitive" type="checkbox" name="cb-practice">intuitive
-    </label>
-
-    <label id="wrapper" for="cool">
-      <input id="cool" type="checkbox" name="cb-practice">the coolest
-    </label>
-  </h3>
-  <p>If you want certain radio buttons or checkboxes to be checked by default,
-    from the moment the user opens the webpage, simply add the <u>checked</u> attribute to their input element.
-  </p>
-
-  <h3>
-    <label id="wrapper" for="checked">
-      <input id="checked" type="checkbox" name="cb" checked>Checked by default
-    </label>
-    <label id="wrapper" for="unchecked">
-      <input id="unchecked" type="checkbox" name="cb">Unchecked by default
-    </label><br>
-  </h3>
-
-  <h3>
-    <label id="wrapper" for="checked">
-      <input id="checked" type="radio" name="cb" checked>Checked by default
-    </label>
-    <label id="wrapper" for="unchecked">
-      <input id="unchecked" type="radio" name="cb">Unchecked by default
-    </label>
-  </h3>
-
-<hr>
-<label id="wrapper">
-  <h2 id="internal-link-practice">
-    You jumped down! Way to go.
-  </h2>
-</label>
-
-<div class="purple-border">
-  <img style="width: 220px; height: 235px;" src="./images.jpg" alt="celebratory turtle">
-</div>
-
-<br>
-  <p>
-    <a href="#links">
-      Click here to jump back up.
-    </a>
-  </p>-->
 </body>
 </html>
