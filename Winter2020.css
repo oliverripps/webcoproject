@@ -1,0 +1,18 @@
+body{
+      background-image: url(lab.png);
+      background-size: cover;
+      height: 100%;
+      text-align:center;
+      margin-top: 100px;
+      color: Green;
+      font-size: 50px;
+    }
+p{
+  background-color: Black;
+}
+h4{
+  background-color: Black;
+}
+p2{
+  font-size:20px;
+}
